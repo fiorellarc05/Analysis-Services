@@ -8,7 +8,6 @@ isnull(ShipRegion,'N/A') as ShipRegion,
 ShipCountry, convert (varchar(50), ' ') EstratoFlete
 into FactOrders
 FROM   NorthWnd.dbo.Orders
---where 1 = 0
 ;
 
 begin tran

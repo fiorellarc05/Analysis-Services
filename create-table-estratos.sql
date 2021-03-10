@@ -41,4 +41,14 @@ begin tran
 		(3400, 'EmpleadoAntiguedad', 5, 9, 'Desde 5 hasta 9 años');
 	insert into NorthWndEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
 		(3500, 'EmpleadoAntiguedad', 9, 99999999999, 'Desde 9 años en adelante');
+	insert into NorthWndEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
+		(1, 'PrecioUnidad', -99999999999, 0, 'Invalido');
+	insert into NorthWndEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
+		(2, 'PrecioUnidad', 0, 1000, 'Desde $0 hasta $1000');
+	insert into NorthWndEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
+		(3, 'PrecioUnidad', 1000, 5000, 'Desde $1000 hasta $5000');
+	insert into NorthWndEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
+		(4, 'PrecioUnidad', 5000, 10000, 'Desde $5000 hasta $10000');
+	insert into NorthWndEstratos (IdEstrato, TipoEstrato, LimiteInferior, LimiteSuperior, Descripcion) values
+		(5, 'PrecioUnidad', 10000, 99999999999, 'Desde $10000 en adelante');
 commit;

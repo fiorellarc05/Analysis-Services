@@ -7,13 +7,12 @@ if (OBJECT_ID ('dbo.DimProducts', 'U') > 0)
 use NORTHWND
 
 SELECT 
-/*p.ProductID + ' ' + p.ProductName + ' ' + p.CategoryID as FullProductName,
-p.QuantityPerUnit + ' ' + p.UnitsOnOrder as ProductReport, */
-/*p.UnitsOnOrder, convert (varchar(50), ' ') OrderUnits, */
-p.ProductName + ' ' + p.QuantityPerUnit /*+ ' ' + OrderUnits*/ as ProductReport,
-p.UnitsInStock + ' ' + p.ReorderLevel  as ProductStatus, 
+p.ProductID, p.CategoryID,p.SupplierID ,
+p.ProductName + ' / ' + p.QuantityPerUnit  as ProductReport,
+p.UnitsInStock as ProductStatus,  
+p.ReorderLevel,
+p.Discontinued,
 p.UnitPrice as EstratoPrecioProd
 
 into CuboNortWnd.dbo.DimProducts
 FROM   Products p
-	
