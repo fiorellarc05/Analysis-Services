@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CuboNorthWindTarea", "CuboNorthWindTarea\CuboNorthWindTarea.dwproj", "{FE6F7166-FF3B-48B9-AE88-FD7B97B0BC10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE6F7166-FF3B-48B9-AE88-FD7B97B0BC10}.Development|Default.ActiveCfg = Development
+		{FE6F7166-FF3B-48B9-AE88-FD7B97B0BC10}.Development|Default.Build.0 = Development
+		{FE6F7166-FF3B-48B9-AE88-FD7B97B0BC10}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C18E343F-5C83-44FD-8B5C-54ED9B9F30DA}
+	EndGlobalSection
+EndGlobal
