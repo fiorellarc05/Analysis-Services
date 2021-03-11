@@ -175,7 +175,36 @@
         <Attribute dwd:design-time-name="d5b3b267-bc83-4e7d-b63e-b412cf5a43c6">
           <AttributeID>Product ID</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="39a300be-6194-455c-b9de-f4199d6b9aff">
+          <AttributeID>Category ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b911d78e-b566-4980-af48-2385dae84d7c">
+          <AttributeID>Supplier ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59fd73ff-13cf-4dbd-9cd9-260f8d4115bb">
+          <AttributeID>Product Report</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="986221df-0132-4b7c-b684-dedc889009a3">
+          <AttributeID>Product Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1aa1a366-74ed-475e-809c-e04d860078b5">
+          <AttributeID>Reorder Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d5b0919b-5dfe-4d51-abab-dd90ce1a310a">
+          <AttributeID>Discontinued</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="772e303b-03ef-4479-8a34-c358d5a6f5db">
+          <AttributeID>Estrato Precio Prod</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a22a9adf-d924-40fb-9da8-23a5ddc68dd8">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="31f34007-5f1c-42e0-a3aa-6e2eca5eeaab">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="c83c2743-d8ee-4888-8259-1333390bd050">
       <ID>Dim Employees</ID>
@@ -236,7 +265,21 @@
         <Attribute dwd:design-time-name="118c83a5-b901-4e42-87c2-fb6b37ab8369">
           <AttributeID>ID Customer</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="4c1c3357-1e1b-428f-86f2-3a6276dd2190">
+          <AttributeID>Customer Information</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a201f5d-5abe-4fce-8af8-31ddfd6fd1f7">
+          <AttributeID>Customer Address Information</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d56e5426-7216-4780-b305-0a7a11e3e249">
+          <AttributeID>Customer Contact</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b2fee493-47fd-44b6-ab96-19df458a4a88">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
