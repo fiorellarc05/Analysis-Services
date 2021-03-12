@@ -31,6 +31,10 @@
       <Name>Dim Customers.dim</Name>
       <FullPath>Dim Customers.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Time.dim</Name>
+      <FullPath>Dim Time.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
